@@ -2,8 +2,10 @@
   <template name="consumerWidget" value="class $class_name$ extends ConsumerWidget {&#10;  const $class_name$({&#10;    super.key&#10;  });&#10;  &#10;  @override&#10;  build(context, ref) {&#10;    return $code$;&#10;  }&#10;}" description="New ConsumerWidget" toReformat="true" toShortenFQNames="true">
     <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="consumerStatefulWidget" value="class $class_name$ extends ConsumerStatefulWidget {&#10;  const $class_name$({&#10;    Key? key,&#10;    super.key&#10;  });&#10;&#10;  @override&#10;  ConsumerState createState() =&gt; _$class_name$State();&#10;}&#10;&#10;class _$class_name$State extends ConsumerState&lt;$class_name$&gt; {&#10;  @override&#10;  build(context) {&#10;    return Container($END$);&#10;  }&#10;}&#10;" description="New ConsumerStatefulWidget" toReformat="true" toShortenFQNames="true">
     <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>
